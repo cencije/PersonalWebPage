@@ -37,7 +37,14 @@ body {
         border-color: #7f0000;
         background-color: #d9d9d9
 }
-
+.dfaPhoto {
+    padding: 1px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #7f0000;
+    width: 650px;
+    height: 190px;
+}
 li {
     display: inline-block;
 }
