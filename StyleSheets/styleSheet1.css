@@ -1,7 +1,6 @@
 h1 {    
     color: #7f0000;
     text-decoration: underline
-    
 }
 h2 {
         background-color: #B0E0E6;
@@ -9,7 +8,7 @@ h2 {
         border-bottom: thick double #7f0000;
         font-size: 250%;
         font-family: helvetica;
-	padding: 2pt;
+
 }
 h3 {
         padding-left: 10pt;
@@ -35,7 +34,12 @@ body {
         border-style: ridge;
         border-width: 8px;
         border-color: #7f0000;
-        background-color: #d9d9d9
+        background-color: #dbfffd;
+}
+.dfaProject {
+    
+    background-color: #fcffbc; #cdffa8
+    
 }
 .dfaPhoto {
     padding: 1px;
@@ -60,12 +64,15 @@ li a {
 }
 
 li a:hover {
-    background-color: #888;
+    background-color: #fffb3d;
 }
 ul {
+    border-top: ridge  #7f0000;
+    border-bottom: ridge  #7f0000;
+    border-width: 4px;
     list-style-type: none;
     margin: 0;
     padding: 2px;
     overflow: hidden;
-    background-color: #999;
+    background-color: #fcffbc;
 }
